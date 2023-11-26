@@ -1,0 +1,42 @@
+body{
+  background-color: darkslateblue;
+}
+
+header{
+  display: flex;
+  height: 25%;
+}
+
+img{
+  height: 60px;
+  margin-top: 0%;
+}
+
+nav{
+  position: relative;
+  display: flex;
+  right:-700px;
+}
+
+#palabras{
+  position: relative;
+  float: left;
+  word-spacing: 20px;
+  top: 70%;
+}
+
+span{
+  color: aqua;
+  margin-right: 6%;
+  margin-left: 40px;
+}
+
+#resume{
+  color: aqua;
+  margin-left: 40px;
+  border-radius: 15%;
+  border:5px solid aqua;
+}
+
+
+
