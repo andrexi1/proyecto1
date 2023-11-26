@@ -1,5 +1,5 @@
 body{
-  background-color: darkslateblue;
+  background-image: radial-gradient(circle at 50% -20.71%, #ff57d2 0, #ff4edb 12.5%, #f046e3 25%, #d63feb 37.5%, #b53cf2 50%, #8c3df9 62.5%, #4f40ff 75%, #0046ff 87.5%, #004bff 100%);background-image: radial-gradient(circle at 50% 120.71%, #ff36ff 0, #ff3dff 12.5%, #ff41ff 25%, #f141ff 37.5%, #b53cf2 50%, #7936d8 62.5%, #3930c0 75%, #002baa 87.5%, #002697 100%);background-image: radial-gradient(circle at 50% 120.71%, #a56fff 0, #5c4abd 25%, #072274 50%, #000031 75%, #000000 100%);background-image: radial-gradient(circle at -20.71% 50%, #a56fff 0, #5c4abd 25%, #072274 50%, #000031 75%, #000000 100%);background-image: radial-gradient(circle at 43.84% 120.44%, #a56fff 0, #5c4abd 25%, #072274 50%, #000031 75%, #000000 100%);background-image: radial-gradient(circle at 107.92% 90.56%, #a56fff 0, #5c4abd 25%, #072274 50%, #000031 75%, #000000 100%);background-image: radial-gradient(circle at 50% 117.24%, #a56fff 0, #5c4abd 25%, #072274 50%, #000031 75%, #000000 100%);background-image: radial-gradient(circle at 50% 92.36%, #a56fff 0, #5c4abd 25%, #072274 50%, #000031 75%, #000000 100%);background-image: radial-gradient(circle at 42.64% 8.28%, #614cc2 0, #39379c 25%, #072274 50%, #000d4e 75%, #00002d 100%);background-image: radial-gradient(circle at -6.95% 50%, #a56fff 0, #5c4abd 25%, #072274 50%, #000031 75%, #000000 100%);background-image: radial-gradient(circle at -20.71% 50%, #a56fff 0, #5c4abd 25%, #072274 50%, #000031 75%, #000000 100%);
 }
 
 header{
@@ -8,21 +8,38 @@ header{
 }
 
 img{
-  height: 60px;
+  position: relative;
+  bottom: -12px;
+  height: 50px;
   margin-top: 0%;
+  margin-left: 10px;
+  border-radius:15%;
 }
 
 nav{
+  color: white;
   position: relative;
   display: flex;
   right:-700px;
 }
 
 #palabras{
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
   position: relative;
   float: left;
   word-spacing: 20px;
   top: 70%;
+}
+
+#palabras:hover{
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  position: relative;
+  float: left;
+  word-spacing: 20px;
+  top: 70%;
+  text-decoration: underline 3px aqua;
 }
 
 span{
@@ -32,11 +49,26 @@ span{
 }
 
 #resume{
+  font-family: 'Fira Sans', sans-serif;
   color: aqua;
   margin-left: 40px;
   border-radius: 15%;
-  border:5px solid aqua;
+  padding: 3px;
+  border:3px solid rgba(25, 0, 255, 0.685);
+  height: 50%;
 }
+
+#resume:hover{
+  font-family: 'Fira Sans', sans-serif;
+  color: aqua;
+  background-color: grey;
+  margin-left: 40px;
+  border-radius: 15%;
+  border:3px solid aqua;
+  height: 50%;
+  text-decoration: none;
+}
+
 
 
 
